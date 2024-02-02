@@ -1,46 +1,41 @@
-# Getting Started with Create React App
+# Star Wars React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is applications fetches Star Wars characters from the SWAPI (Star Wars API) and displays their details.
 
-## Available Scripts
 
-In the project directory, you can run:
+## Installation
 
-### `npm start`
+1. Clone the repository:
+   git clone https://github.com/rinki-yadav-2001/atars-war-heroes.git
+2. cd atars-war-heroes/star-war
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+3. run command : npm install 
+4. npm start 
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `npm test`
+## Cypress run
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. npm run cypress:open  OR npx cypress open  
 
-### `npm run build`
+Note : To run Cypress tests, make sure your application is running on http://localhost:3000/ 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Challenge faced: 
+To complete this task, I utilized resources from Google and sought assistance from ChatGPT for refining the syntax.
+The most challenging aspects I have encountered are writing unit tests and declaring types.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Improvements:
+If I would have given more time, I would have made the following enhancements:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+1. Loader and Styling: I could have implemented a loading spinner or loader for a better user experience. Additionally, I would have enhanced the styling to improve the overall visual appeal.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. Accessibility: I would have focused on improving accessibility by ensuring the application is navigable and usable for individuals with disabilities. This includes adding appropriate ARIA attributes and ensuring a proper focus order.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+3. Refined API Fetching: I would have explored methods to efficiently fetch arrays of API data separately, optimizing the application's performance.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Thank you for the opportunity!
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+
