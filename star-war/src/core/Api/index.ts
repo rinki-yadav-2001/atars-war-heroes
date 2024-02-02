@@ -8,3 +8,21 @@ export const fetchCharacters = async (page: number) => {
   }
   return response.json();
 };
+
+export const fetchHomePlanet = async (planetUrl?: string) => {
+  const response = await fetch(`${planetUrl}`);
+  // console.log(response)
+  if (!response.ok) {
+    throw new Error('Failed to fetch  home planet of heroes');
+  }
+  return response.json();
+};
+
+
+export const fetchHeroDetails = async (id?: number | string ) => {
+  const response = await fetch(`${BASE_URL}/people/${id}`);
+  if (!response.ok) {
+    throw new Error('Failed to fetch single heros  details');
+  }
+  return response.json();
+};

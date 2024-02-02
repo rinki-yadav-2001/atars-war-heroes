@@ -1,0 +1,71 @@
+
+
+
+.title{
+  font-size: 26px;
+  font-weight: 800;
+  color: #181372;
+}
+.characterlist-wrapper{
+    display: flex;
+    flex-direction: column;
+   width: 100%;
+   text-align: center;
+
+}
+.character-card-wrapper {
+  display: flex;
+   justify-content:center;
+   text-align: center;
+   flex-wrap: wrap;
+  }
+.character-card {
+  display: flex;
+  justify-content: center;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 20%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    margin: 16px;
+    padding: 16px;
+    text-align: center;
+    text-decoration: none;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+
+  .character-card:hover {
+    transform: translateY(-4px);
+  }
+  
+
+  @media (max-width: 768px) {
+    .character-card {
+      width: calc(50% - 32px); 
+     
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .character-card {
+      width: calc(100% - 32px); 
+ 
+    }
+  }
+  .hero_name{
+ 
+    font-size: 20px;
+    color: #000; ;
+  }
+  .hero_gender{
+ 
+    font-size: 16px;
+    color: rgb(101, 157, 17); ;
+  }
+  .hero_planet{
+    font-size: 14px;
+    color: #de0f0f; ;
+  }
+  
+  
